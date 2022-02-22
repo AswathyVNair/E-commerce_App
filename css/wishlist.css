@@ -1,0 +1,10 @@
+.wishlist-pg-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    padding-bottom: 2rem;
+}
+
+.wishlist-pg-card-container .btn-wishlist{
+    color: var(--light-red3);
+}
