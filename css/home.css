@@ -1,3 +1,4 @@
+
 body{
     margin: 1rem;
 }
@@ -7,20 +8,6 @@ body{
    flex-direction: column;
    justify-content:space-evenly;
    height: 100rem;
-}
-
-.nav-title{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-title,h2{
-    color: var(--green);
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
 }
 
 .img-card-container{

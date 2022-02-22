@@ -1,0 +1,18 @@
+.nav-bar{
+    box-shadow: 0 0 0.5rem 0.1rem var(--light-grey);
+}
+
+.nav-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-title,h2{
+    color: var(--green);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
