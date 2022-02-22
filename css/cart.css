@@ -1,0 +1,107 @@
+.btn-remove{
+    background-color: var(--white);
+    border:1px solid var(--light-red2);
+    color: var(--light-red2);
+}
+
+.btn-remove:hover{
+    background-color: var(--light-red2);
+    color: var(--white);
+}
+
+.quantiy-section{
+    display: flex;
+    margin: 1rem 0;
+    height: 2.5rem;
+    gap:1rem;
+    font-weight: bold;
+    align-items: center; 
+}
+.quantiy-section input{
+    width: 5rem;
+    height: 2rem;
+    padding: 1rem;
+    border:2px solid var(--green);
+    border-radius: 1rem;    
+}
+
+.quantiy-section input:focus{
+    outline: none;
+}
+
+.quantiy-section button{
+    width: 2rem;
+    height: 2rem;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.quantiy-section button:hover{
+    background-color: var(--dark-green);
+}
+
+.cart-page-container{
+    padding: 2rem;
+    display: flex;
+    gap:1rem;
+}
+
+.cart-card-container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem
+}
+
+.price-details-card{
+    margin-top: 2rem;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px var(--light-grey);
+}
+
+.price-details-card h3{
+    display: flex;
+    justify-content: center;
+}
+
+.price-division{
+    border-top: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.save-message{
+    border-top: 1px solid var(--light-grey);
+}
+
+.price-division-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-detail-item{
+    padding: 1rem;
+}
+
+.btn-order{
+    padding: 0.5rem 0rem;
+    border: none;
+    background-color: var(--green);
+    font-size: 1rem;
+    color: var(--white);
+    border-radius: 5px;
+}
+
+.btn-order:hover{
+    background-color: var(--dark-green);
+}

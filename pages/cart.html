@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link href="https://asthra-ui.netlify.app/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/cart.css" rel="stylesheet">
+</head>
+<body>
+    <nav class = "nav-bar">
+        <span class ="nav-title">BakeHere</span>
+        <div class = "input-box-icon">
+            <label for = "input-search"></label>
+            <div class = "input-icon-container border-grey">
+                <button><i class="bi bi-search"></i></button>
+                <input type = "text" id ="input-search" placeholder="Search">
+            </div>
+        </div>
+        <div class = "btn-nav">
+            <button class="btn-login">
+              <a href = "/" >Login</a> 
+            </button>
+            <button class ="btn-icon">
+                <a href="/"><i class="bi bi-heart-fill"></i></a>
+            </button>
+            <button class ="btn-icon">
+                <a href="/pages/cart.html"><i class="bi bi-cart-fill"></i></a>
+            </button>
+        </div>
+    </nav>
+    <h1 class = "center-text">My Cart (2)</h1>
+    <div class = "cart-page-container">
+        <div class = "cart-card-container">
+            <div class="basic-card basic-card-horizontal border-radius-5px">
+                <div class = "img-section">
+                    <img class ="card-img card-flex-item border-radius-5px" src="/assets/heart-shape-mould.jpeg" alt="heart-shape-mould">
+                    <span class="badge-on-card">New</span>
+                </div>
+                <div class="card-body">
+                    <p>Trendy Elegant Women Tops & Tunics</p>
+                    <div class = "price-details">
+                        <span class = "new-price">&#x20B9 158</span>
+                        <span class = "old-price">&#x20B9 225</span>
+                        <span class = "offer">30% off</spam>
+                    </div>
+                        <span>Quantity: </span>
+                        <div class = "quantiy-section">
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type = "number" value = "1"/>
+                            <button><i class="bi bi-plus"></i></button>
+                        </div>
+                    <button class="btn-addtocart border-radius-5px"></i>Move To Wishlist</button>
+                    <button class="btn-addtocart border-radius-5px btn-remove"></i>Remove From Cart</button>
+                </div>
+            </div>
+            <div class="basic-card basic-card-horizontal border-radius-5px">
+                <div class = "img-section">
+                    <img class ="card-img card-flex-item border-radius-5px" src="/assets/heart-shape-mould.jpeg" alt="heart-shape-mould">
+                    <span class="badge-on-card">New</span>
+                </div>
+                <div class="card-body">
+                    <p>Trendy Elegant Women Tops & Tunics</p>
+                    <div class = "price-details">
+                        <span class = "new-price">&#x20B9 210</span>
+                        <span class = "old-price">&#x20B9 299</span>
+                        <span class = "offer">30% off</spam>
+                    </div>
+                        <span>Quantity: </span>
+                        <div class = "quantiy-section">
+                            <button><i class="bi bi-dash"></i></button>
+                            <input type = "number" value = "1"/>
+                            <button><i class="bi bi-plus"></i></button>
+                        </div>
+                    <button class="btn-addtocart border-radius-5px"></i>Move To Wishlist</button>
+                    <button class="btn-addtocart border-radius-5px btn-remove"></i>Remove From Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class = "price-details-card">
+                <h3>Price Details</h3>
+                <div class = "price-division">
+                    <div class = "price-division-item price-detail-item">
+                        <span>Price (2 items)</span>
+                        <span>&#x20B9 420</span>
+                    </div>
+                    <div class = "price-division-item price-detail-item">
+                        <span>Discount</span>
+                        <span>- &#x20B9 168</span>
+                    </div>
+                    <div class = "price-division-item price-detail-item">
+                        <span>Delivery Charges</span>
+                        <span>&#x20B9 49</span>
+                    </div>
+                </div>
+                
+                <div class = "price-division-item price-detail-item">
+                    <span>Total Amount</span>
+                    <span>&#x20B9 301</span>
+                </div>
+            <div class = "save-message price-detail-item">You will save &#x20B9 168 on this order</div>
+            <button class="btn-order"> PLACE ORDER</button>
+        </div>
+    </div>
+</body>
+</html>
