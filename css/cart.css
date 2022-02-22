@@ -11,7 +11,7 @@
 
 .quantiy-section{
     display: flex;
-    margin: 1rem 0rem;
+    margin: 1rem 0;
     height: 2.5rem;
     gap:1rem;
     font-weight: bold;
