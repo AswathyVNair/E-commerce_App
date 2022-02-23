@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link href="https://asthra-ui.netlify.app/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/logout.css" rel="stylesheet">
+</head>
+<body>
+    <nav class = "nav-bar">
+        <span class ="nav-title">BakeHere</span>
+        <div class = "input-box-icon">
+            <label for = "input-search"></label>
+            <div class = "input-icon-container border-grey">
+                <button><i class="bi bi-search"></i></button>
+                <input type = "text" id ="input-search" placeholder="Search">
+            </div>
+        </div>
+        <div class = "btn-nav">
+            <button class="btn-login">
+              <a href = "/pages/login.html" >Login</a> 
+            </button>
+            <button class ="btn-icon">
+                <a href="/pages/wishlist.html"><i class="bi bi-heart-fill"></i></a>
+            </button>
+            <button class ="btn-icon">
+                <a href="/pages/cart.html"><i class="bi bi-cart-fill"></i></a>
+            </button>
+        </div>
+    </nav>
+    <main class = "logout-maincontent">
+        <div class = "logout-container"> 
+            <div class = "tick"><i class="bi bi-check-circle-fill"></i></div>
+            <div class = "logout-message">You have successfully been logged out</div>
+            <a href="/index.html">Back to Home</a>
+        </div>
+
+    </main>
+    
+    
+</body>
+</html>
