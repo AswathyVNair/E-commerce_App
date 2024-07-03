@@ -2,8 +2,8 @@
 BakeHere presents the design of an e-commerce web application offering accessories essential for cake baking
 
 # Built Using
-HTML
-CSS
+HTML,
+CSS,
 Asthra-UI
 
 # Screenshots
